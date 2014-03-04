@@ -79,8 +79,9 @@
     <!--<div style="font-size:10px;">Marker Icons by <a href="http://mapicons.nicolasmollet.com/">Nicolas Mollet</a></div>-->
     <div id="answer" class="skeleton span10">
       <div id="question">
-          <h1>Add a point per camping tent</h1>
-          <p>You can also draw a polygon to measure the size of the tents</p>
+          <h1>Draw the outline of the landfill</h1>
+          <h2></h2>
+          <h3></h3>
 
       </div>
       <div id="controls" class="btn-group" data-toggle="buttons-radio" style="padding-bottom:5px;">
@@ -330,7 +331,8 @@ pybossa.presentTask(function(task, deferred){
     if ( !$.isEmptyObject(task) ) {
         updateBar("Loading task data...");
         //console.log(data);
-        //$("#question h1").text(task.info.question);
+        $("#question h2").text(task.info.Facility_Name + "(" + task.info.Facility_State + ")" );
+        $("#question h3").text(task.info.Facility_Street );
         $("#task-id").text(task.id);
         loadUserProgress();
 
