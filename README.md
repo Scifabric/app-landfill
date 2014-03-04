@@ -10,7 +10,7 @@ center it and add one or more points/polygons to the map.
 Thanks to the use of OpenLayers the data can be exported in any standard GIS format:
 KML, GeoJSON, etc. In this application the answers are saved as GeoJSON.
 
-![alt screenshot](http://i.imgur.com/kTgUEL0.png)
+![alt screenshot](http://i.imgur.com/2kgKkYz.png)
 
 The application has three files:
 
