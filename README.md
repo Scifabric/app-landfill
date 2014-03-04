@@ -43,7 +43,7 @@ We recommend that you read the section: [Build with PyBossa](http://docs.pybossa
 LICENSE
 =======
 
-Please, see the COPYING file.
+Please, see the LICENSE.txt file.
 
 Acknowledgments
 ===============
